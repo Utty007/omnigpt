@@ -1,0 +1,62 @@
+.Frame1 {
+    display: flex;
+    /* padding: 0px 80px; */
+    justify-content: space-between;
+    color: white;
+}
+
+.Text {
+    max-width: 530px;
+}
+
+.Text > h1 {
+    font-family: FS Meridian Trial;
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 85px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+}
+
+.Text > h2 {
+    font-family: General Sans;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.Text > p:first-of-type {
+    font-family: General Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.Text > p:last-of-type {
+    font-family: General Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.Text > button {
+    background: #1FC77E;
+        border-radius: 5px;
+        padding: 16px;
+        text-align: center;
+        color: white;
+        border: 0px;
+        font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0px;
+            text-align: center;
+}
