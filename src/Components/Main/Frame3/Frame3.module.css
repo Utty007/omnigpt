@@ -1,0 +1,134 @@
+.Frame3 {
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+.bgImage {
+    position: relative;
+    z-index: -1;
+    top: 12px;
+    left: 13px;
+}
+
+.slack {
+    position: relative;
+    bottom: 590px;
+    left: -50px;
+}
+
+.vector2 {
+    position: relative;
+    z-index: -2;
+    bottom: 500px;
+    left: 160px;
+}
+
+.vector {
+    position: relative;
+    z-index: -2;
+    bottom: 420px;
+    left: -50px;
+    
+}
+
+.whatsapp {
+    background-color: white;
+    padding: 27px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 330px;
+    left: 140px;
+}
+
+.Text {
+    color: white;
+    max-width: 500px;
+}
+
+.Text > h1 {
+    font-family: FS Meridian Trial;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Text > h1 > span {
+     color: #1FC77E;
+ }
+
+.wBg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.wBgH3 {
+    font-family: 'General Sans';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 22px;
+        
+}
+
+.wBgP {
+    font-family: 'General Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.wBgImg > img {
+    background-color: #1FC77E;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.subText {
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.subText > h2 {
+    font-family: 'General Sans';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.subText:hover .hoverDisplay {
+    display: block;
+    animation-name: zoomIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.hoverDisplay {
+    display: none;
+    font-family: 'General Sans';
+    font-weight: 400;
+    font-size: 20px;
+    /* transform: translateX(-450px); */
+}
+
+@keyframes zoomIn {
+    from {
+        transform: translateX(-450px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
