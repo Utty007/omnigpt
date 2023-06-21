@@ -1,0 +1,60 @@
+.Frame5 {
+    background-color: black;
+    color: white;
+    padding: 80px;
+    margin-bottom: 80px;
+}
+
+.mainHeader {
+    font-family: 'FS Meridian Trial';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 63px;
+    text-align: center;
+    color: white;
+}
+
+.mainHeader>span {
+    color: #1FC77E;
+}
+
+.Integrations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Integrations > div {
+    padding: 20px 25px 0 25px;
+    margin: 24px 0 0 0;
+    width: 302px;
+    height: 168px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.integrationHeader {
+    display: flex;
+    align-items: center;
+}
+
+.integrationHeader > img {
+    margin-right: 10px;
+}
+
+.integrationHeader > h3 {
+    font-family: 'General Sans';
+        font-size: 20px;
+        /* line-height: 30px; */
+        font-weight: 500;
+        text-align: left;
+}
+
+.integrationDetail {
+    font-family: 'General Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
