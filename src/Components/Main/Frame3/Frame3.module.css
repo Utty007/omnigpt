@@ -127,5 +127,61 @@
 @media screen and (max-width: 750px) {
   .Frame3 {
     padding: 0 40px;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Text > h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Text > h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .wBgH3 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .wBgImg {
+    display: none;
+  }
+
+  .subText > h2 {
+    font-size: 25px;
+  }
+
+  .hoverDisplay {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Text > h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .Text > h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .subText > h2 {
+    font-size: 20px;
+  }
+
+  .hoverDisplay {
+    font-size: 12px;
+  }
+
+  .wBgH3 {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
