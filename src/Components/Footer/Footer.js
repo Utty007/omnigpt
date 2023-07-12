@@ -42,11 +42,6 @@ const Footer = () => {
           <h3>Lorem Ipsum</h3>
         </div>
       </div>
-
-      <p>
-        {" "}
-        Coded by <a href="https://github.com/Utty007">Kayode Uthman</a>
-      </p>
     </div>
   );
 };
