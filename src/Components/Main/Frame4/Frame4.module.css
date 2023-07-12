@@ -23,3 +23,9 @@
     padding: 0 40px 130px 40px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mainHeader {
+    font-size: 40px;
+  }
+}
