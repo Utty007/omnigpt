@@ -69,6 +69,6 @@
 
 @media screen and (max-width: 750px) {
   .Frame2 {
-    padding: 0 40px;
+    display: none;
   }
 }
