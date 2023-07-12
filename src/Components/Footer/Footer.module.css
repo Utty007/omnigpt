@@ -1,0 +1,78 @@
+.Footer {
+  background-color: black;
+  padding: 120px 120px 30px 120px;
+  color: white;
+}
+
+.footerForm {
+  background-color: #05e283;
+  padding: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  position: absolute;
+  width: 70%;
+  transform: translateY(-300px);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.header {
+  font-family: "FS Meridian Trial";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 51px;
+}
+
+.detail {
+  font-family: "General Sans";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.btn {
+  border: 0;
+  background-color: black;
+  color: white;
+  font-family: "poppins";
+  font-weight: 500;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.mainFooter {
+  margin: 120px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "General Sans";
+  font-weight: 500;
+}
+
+@media screen and (max-width: 950px) {
+  .footerForm {
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+
+  .mainFooter {
+    margin-top: 160px;
+  }
+
+  .mainFooter > div {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .mainFooter {
+    margin-top: 240px;
+  }
+}

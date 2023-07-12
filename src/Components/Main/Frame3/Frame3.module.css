@@ -1,165 +1,131 @@
 .Frame3 {
-    display: flex;
-    padding: 0 80px 0 120px;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 95%; */
-    flex-wrap: wrap;
-    margin-bottom: 100px;
+  display: flex;
+  padding: 0 80px 0 120px;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 95%; */
+  flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 .bgImage {
-    position: relative;
-    z-index: -1;
-    top: 12px;
-    left: 13px;
+  position: relative;
+  z-index: -1;
+  top: 12px;
+  left: 13px;
 }
 
 .slack {
-    position: relative;
-    bottom: 590px;
-    left: -50px;
+  position: relative;
+  bottom: 590px;
+  left: -50px;
 }
 
 .vector2 {
-    position: relative;
-    z-index: -2;
-    bottom: 500px;
-    left: 160px;
+  position: relative;
+  z-index: -2;
+  bottom: 500px;
+  left: 160px;
 }
 
 .vector {
-    position: relative;
-    z-index: -2;
-    bottom: 420px;
-    left: -50px;
-    
+  position: relative;
+  z-index: -2;
+  bottom: 420px;
+  left: -50px;
 }
 
 .whatsapp {
-    background-color: white;
-    padding: 27px;
-    border-radius: 50%;
-    position: relative;
-    bottom: 330px;
-    left: 140px;
+  background-color: white;
+  padding: 27px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 330px;
+  left: 140px;
 }
 
 .Text {
-    color: white;
-    max-width: 500px;
+  color: white;
+  max-width: 500px;
+  margin: auto;
 }
 
 .Text > h1 {
-    font-family: FS Meridian Trial;
-    font-size: 60px;
-    font-weight: 500;
-    line-height: 63px;
-    letter-spacing: 0em;
-    text-align: left;
+  font-family: FS Meridian Trial;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .Text > h1 > span {
-     color: #1FC77E;
- }
+  color: #1fc77e;
+}
 
 .wBg {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .wBgH3 {
-    font-family: 'General Sans';
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 22px;
-        
+  font-family: "General Sans";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 22px;
 }
 
 .wBgP {
-    font-family: 'General Sans';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+  font-family: "General Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .wBgImg > img {
-    background-color: #1FC77E;
-    border-radius: 9px;
-    padding: 5px;
+  background-color: #1fc77e;
+  border-radius: 9px;
+  padding: 5px;
 }
 
 .subText {
-    cursor: pointer;
-    box-sizing: border-box;
-    overflow-x: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .subText > h2 {
-    font-family: 'General Sans';
-    font-weight: 600;
-    font-size: 30px;
-    transform: translateY(40px);
-}
-
-.subText .hoverDisplay {
-    
-transition: display .3s ease-in-out;
+  font-family: "General Sans";
+  font-weight: 600;
+  font-size: 30px;
+  transform: translateY(40px);
+  transition: transform 0.5s ease-in-out;
 }
 
 .subText:hover h2 {
-animation-name: moveUp;
-    animation-duration: .5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+  transform: translateY(0);
 }
 
 .subText:hover .hoverDisplay {
-    animation-name: zoomIn;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+  transform: translateX(0);
 }
 
 .hoverDisplay {
-    margin-top: 0;
-    font-family: 'General Sans';
-    font-weight: 400;
-    font-size: 20px;
-    transform: translateX(-500px);
+  margin-top: 0;
+  font-family: "General Sans";
+  font-weight: 400;
+  font-size: 20px;
+  transform: translateX(-500px);
+  transition: transform 0.3s ease-in-out;
 }
 
-@keyframes zoomIn {
-    from {
-        transform: translateX(-500px);
-    }
-
-    to {
-        transform: translateX(0px);
-    }
-}
-
-@keyframes slideOut {
-    from {
-        transform: translateX(0px);
-    }
-
-    to {
-        transform: translateX(-450px);
-    }
-}
-
-@keyframes moveUp {
-    from {
-        transform: translateY(40px);
-    } to {
-        transform: translateY(0);
-    }
+@media screen and (max-width: 750px) {
+  .Frame3 {
+    padding: 0 40px;
+  }
 }

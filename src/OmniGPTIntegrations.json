@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "integrationName": "WhatsApp", 
+      "integrationDetail":
+        "Connect your WhatsApp account to easily send and receive messages directly with OmniGPT."
+    },
+    {
+      "id": 2,
+      "integrationName": "Slack",
+      "integrationDetail":
+        "Connect your OmniGPT account to Slack and start collaborating with your team right away."
+    },
+    {
+      "id": 3,
+      "integrationName": "Chrome Extension",
+      "integrationDetail":
+        "Install the OmniGPT extension on your Chrome browser to access our AI right from your browser window."
+    },
+    {
+      "id": 4,
+      "integrationName": "Line",
+      "integrationDetail":
+        "Connect OmniGPT with Line to start collaborating with your team and automate your workflow."
+    },
+    {
+      "id": 5,
+      "integrationName": "Trello",
+      "integrationDetail":
+        "Automate your Trello boards with OmniGPT and manage your team's tasks more efficiently."
+    },
+    {
+      "id": 6,
+      "integrationName": "Jira",
+      "integrationDetail":
+        "Connect OmniGPT with Jira and automate your team's workflow to improve efficiency and productivity."
+    },
+    {
+      "id": 7,
+      "integrationName": "Google Workspace",
+      "integrationDetail":
+        "Integrate OmniGPT with your Google Workspace account to streamline your workflow and enhance team collaboration."
+    },
+    {
+      "id": 8,
+      "integrationName": "Notion",
+      "integrationDetail":
+        "Integrate OmniGPT with Notion to automate your workflow and collaborate with your team more effectively."
+    },
+    {
+      "id": 9,
+      "integrationName": "GitHub",
+      "integrationDetail":
+        "Use OmniGPT to automate your GitHub workflow and streamline your team's development process."
+    }
+  ]

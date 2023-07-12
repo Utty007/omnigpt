@@ -11,10 +11,11 @@ import e1arrow from "../Images/Vector.png";
 import e2arrow from "../Images/Vector2.png";
 import marked from "../Images/Shape.png";
 import shape1 from "../Images/Rectangle2.png";
+import Style from "./mulImg.module.css";
 
-const ImgPos = () => {
+const ImgPos = (props) => {
   return (
-    <div>
+    <div className={props.className}>
       <div style={{ display: "flex", alignItems: "end" }}>
         <div
           style={{
@@ -29,8 +30,8 @@ const ImgPos = () => {
           style={{
             backgroundImage: `url(${ellipse1})`,
             backgroundRepeat: "no-repeat",
-            width: "107px",
-            height: "107px",
+            minWidth: "107px",
+            minHeight: "107px",
             marginLeft: "27px",
           }}
         >
@@ -40,7 +41,7 @@ const ImgPos = () => {
           />
         </div>
       </div>
-      <div style={{ display: "flex", alignItems: "end" }}>
+      <div className={Style.subParent} style={{ alignItems: "end" }}>
         <div
           style={{
             backgroundImage: `url(${ellipse2})`,
@@ -70,6 +71,7 @@ const ImgPos = () => {
         </div>
       </div>
       <div
+        className={Style.displayNone}
         style={{
           backgroundImage: `url(${bgShape4})`,
           backgroundRepeat: "no-repeat",
@@ -95,7 +97,7 @@ const ImgPos = () => {
           </span>
         </p>
       </div>
-      <div style={{ display: "flex" }}>
+      <div className={Style.subParent}>
         <div
           style={{
             backgroundImage: `url(${bgShape2})`,

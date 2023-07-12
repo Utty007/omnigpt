@@ -26,7 +26,7 @@ const Frame1 = () => {
         <p>Try for free! 15-day trial, no credit card required.</p>
         <button>Start your free trial</button>
       </div>
-      <ImgPos />
+      <ImgPos className={Style.mulImg} />
     </div>
   );
 };

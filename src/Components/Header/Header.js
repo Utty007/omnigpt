@@ -1,5 +1,5 @@
 import Style from "./Header.module.css";
-import { FaBars } from "react-icons/fa";
+import FaBars from "../../Images/solar_hamburger-menu-linear.png";
 import OmnigptLogo from "../../Images/omnigptLogo.png";
 
 const Header = () => {

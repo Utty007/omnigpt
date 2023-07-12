@@ -1,0 +1,13 @@
+.subParent {
+  display: flex;
+}
+
+@media screen and (max-width: 750px) {
+  .displayNone {
+    display: none;
+  }
+
+  .subParent {
+    display: none;
+  }
+}
