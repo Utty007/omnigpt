@@ -11,12 +11,9 @@ const Frame3 = () => {
   return (
     <div className={Style.Frame3}>
       <div
+        className={Style.phoneDisplay}
         style={{
           backgroundImage: `url(${iPhoneDisplay})`,
-          backgroundRepeat: "no-repeat",
-          height: "660px",
-          width: "320px",
-          margin: "auto",
         }}
       >
         <img src={bgImage} className={Style.bgImage} />
