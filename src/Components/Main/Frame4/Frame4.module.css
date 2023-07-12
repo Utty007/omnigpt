@@ -27,5 +27,10 @@
 @media screen and (max-width: 600px) {
   .mainHeader {
     font-size: 40px;
+    line-height: 40px;
+  }
+
+  .frame4Img {
+    width: 270px;
   }
 }

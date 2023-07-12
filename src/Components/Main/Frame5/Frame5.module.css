@@ -64,3 +64,10 @@
     padding: 80px 40px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mainHeader {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}

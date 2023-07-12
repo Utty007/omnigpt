@@ -9,7 +9,7 @@ const Frame4 = () => {
       </h1>
 
       <div>
-        <img src={Screenshot} />
+        <img className={Style.frame4Img} src={Screenshot} />
       </div>
     </div>
   );
