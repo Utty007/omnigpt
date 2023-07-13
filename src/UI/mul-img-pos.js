@@ -18,15 +18,19 @@ const ImgPos = (props) => {
     <div className={props.className}>
       <div style={{ display: "flex", alignItems: "end" }}>
         <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
           style={{
             backgroundImage: `url(${bgShape1})`,
             backgroundRepeat: "no-repeat",
             backgroundPositionY: "bottom",
           }}
         >
-          <img src={Avatar1} />
+          <img data-aos="fade-up" data-aos-duration="2000" src={Avatar1} />
         </div>
         <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
           style={{
             backgroundImage: `url(${ellipse1})`,
             backgroundRepeat: "no-repeat",
@@ -43,6 +47,8 @@ const ImgPos = (props) => {
       </div>
       <div className={Style.subParent} style={{ alignItems: "end" }}>
         <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
           style={{
             backgroundImage: `url(${ellipse2})`,
             backgroundRepeat: "no-repeat",
@@ -57,6 +63,8 @@ const ImgPos = (props) => {
           />
         </div>
         <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
           style={{
             backgroundImage: `url(${bgShape3})`,
             backgroundRepeat: "no-repeat",
@@ -65,6 +73,8 @@ const ImgPos = (props) => {
           }}
         >
           <img
+            data-aos="fade-up"
+            data-aos-duration="2000"
             style={{ position: "relative", left: "52px", top: "4px" }}
             src={Avatar3}
           />
@@ -72,6 +82,8 @@ const ImgPos = (props) => {
       </div>
       <div
         className={Style.displayNone}
+        data-aos="fade-left"
+        data-aos-duration="2000"
         style={{
           backgroundImage: `url(${bgShape4})`,
           backgroundRepeat: "no-repeat",
@@ -99,6 +111,8 @@ const ImgPos = (props) => {
       </div>
       <div className={Style.subParent}>
         <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
           style={{
             backgroundImage: `url(${bgShape2})`,
             backgroundRepeat: "no-repeat",
@@ -107,9 +121,11 @@ const ImgPos = (props) => {
             top: "-150px",
           }}
         >
-          <img src={Avatar2} />
+          <img data-aos="fade-up" data-aos-duration="2000" src={Avatar2} />
         </div>
         <div
+          data-aos="fade-left"
+          data-aos-duration="2000"
           style={{
             position: "relative",
             top: "35px",

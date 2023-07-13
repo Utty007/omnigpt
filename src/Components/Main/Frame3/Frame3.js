@@ -9,19 +9,23 @@ import vector from "../../../Images/Rectangle6.png";
 
 const Frame3 = (props) => {
   return (
-    <div className={Style.Frame3} data-aos="fade-up">
+    <div className={Style.Frame3}>
       <div
         className={Style.phoneDisplay}
         style={{
           backgroundImage: `url(${iPhoneDisplay})`,
         }}
       >
-        <img src={bgImage} className={Style.bgImage} />
-        <img src={slackLogo} className={Style.slack} />
-        <img src={vector2} className={Style.vector2} />
-        <img src={vector} className={Style.vector} />
+        <img src={bgImage} className={Style.bgImage} data-aos="flip-left" />
+        <img src={slackLogo} className={Style.slack} data-aos="fade-left" />
+        <img src={vector2} className={Style.vector2} data-aos="fade-right" />
+        <img src={vector} className={Style.vector} data-aos="fade-up" />
 
-        <img src={whatsappLogo} className={Style.whatsapp} />
+        <img
+          src={whatsappLogo}
+          className={Style.whatsapp}
+          data-aos="fade-down"
+        />
       </div>
       <div
         className={Style.Text}

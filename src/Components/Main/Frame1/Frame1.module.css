@@ -4,11 +4,13 @@
   padding: 0px 80px;
   justify-content: space-between;
   color: white;
+  transform: translateY(-40px);
 }
 
 .Text {
   max-width: 500px;
   margin: auto;
+  transform: translateY(-60px);
 }
 
 .Text > h1 {
@@ -66,7 +68,8 @@
 .mulImg {
   width: auto;
   margin: auto;
-  transform: translateY(30px);
+  /* scale: 0.95; */
+  /* transform: translateY(-50px); */
 }
 
 @media screen and (max-width: 750px) {
