@@ -2,7 +2,7 @@ import Style from "./Header.module.css";
 import FaBars from "../../Images/solar_hamburger-menu-linear.png";
 import OmnigptLogo from "../../Images/omnigptLogo.png";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className={Style.Header}>
       <div className={Style.Logo}>
@@ -15,7 +15,7 @@ const Header = () => {
         </a>
         <a href="#">Sign in</a>
       </div>
-      <div className={Style.menuBar}>
+      <div className={Style.menuBar} onClick={props.onClick}>
         <img src={FaBars} alt="menu-bar" />
       </div>
     </div>

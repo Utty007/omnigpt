@@ -1,0 +1,35 @@
+.menuItem {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  background-color: #111826;
+  padding: 30px;
+  position: fixed;
+  z-index: 5;
+  box-sizing: border-box;
+  display: none;
+}
+
+.menuItem > p {
+  color: #fff;
+  text-align: center;
+  font-family: General Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 63px;
+}
+
+.menuItem > p:first-of-type {
+  margin-top: 80px;
+}
+
+.menuItem > img {
+  float: right;
+}
+
+@media screen and (max-width: 750px) {
+  .menuItem {
+    display: block;
+  }
+}
