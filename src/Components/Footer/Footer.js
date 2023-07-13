@@ -3,9 +3,9 @@ import OmniGPTlogo from "../../Images/omnigptLogo.png";
 
 const Footer = () => {
   return (
-    <div className={Style.Footer}>
+    <div className={Style.Footer} data-aos="fade-up">
       <div className={Style.footerForm}>
-        <div>
+        <div data-aos="fade-right">
           <h1 className={Style.header}>
             Experience the OmniGPT <br /> Difference Today
           </h1>
@@ -14,7 +14,7 @@ const Footer = () => {
             Collaborate.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <button className={Style.btn}>Start your free trial!</button>
         </div>
       </div>

@@ -66,17 +66,22 @@ const Frame5 = () => {
       integrationImage: integrationImage[index].image,
     };
   });
+
   const Integrations = transformedData;
   return (
     <div className={Style.Frame5}>
-      <h1 className={Style.mainHeader}>
+      <h1 className={Style.mainHeader} data-aos="fade-up">
         <span>Integrations</span> to Boost <br /> Your Workflow
       </h1>
 
       <div className={Style.Integrations}>
-        {Integrations.map((integrations) => {
+        {Integrations.map((integrations, index) => {
           return (
-            <div key={integrations.id}>
+            <div
+              key={integrations.id}
+              data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
+              data-aos-duration="1000"
+            >
               <div className={Style.integrationHeader}>
                 <img src={integrations.integrationImage} />
                 <h3>{integrations.integrationName}</h3>

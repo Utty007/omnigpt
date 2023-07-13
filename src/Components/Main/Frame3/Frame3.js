@@ -7,9 +7,9 @@ import Collaboration from "../../../Images/collaboration.png";
 import vector2 from "../../../Images/Rectangle2.png";
 import vector from "../../../Images/Rectangle6.png";
 
-const Frame3 = () => {
+const Frame3 = (props) => {
   return (
-    <div className={Style.Frame3}>
+    <div className={Style.Frame3} data-aos="fade-up">
       <div
         className={Style.phoneDisplay}
         style={{
@@ -23,7 +23,11 @@ const Frame3 = () => {
 
         <img src={whatsappLogo} className={Style.whatsapp} />
       </div>
-      <div className={Style.Text}>
+      <div
+        className={Style.Text}
+        data-aos="fade-right"
+        data-aos-duration="3000"
+      >
         <h1>
           The <span>All-in-One</span> solution for conversational AI
         </h1>

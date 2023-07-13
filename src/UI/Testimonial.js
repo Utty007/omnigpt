@@ -2,7 +2,7 @@ import Style from "./Testimonial.module.css";
 
 const Testimonial = (props) => {
   return (
-    <div className={Style.Testimonial}>
+    <div className={Style.Testimonial} data-aos="fade-up">
       <div>
         <img src={props.star} />
         <h2 className={Style.header}>{props.testimonyHeader}</h2>

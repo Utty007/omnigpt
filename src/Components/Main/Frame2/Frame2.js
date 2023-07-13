@@ -13,7 +13,7 @@ import Vector3 from "../../../Images/Vector6.png";
 const Frame2 = () => {
   return (
     <div style={{ padding: "0 80px" }}>
-      <div className={Style.Frame2}>
+      <div data-aos="fade-up" data-aos-duration="3000" className={Style.Frame2}>
         <div
           className={Style.iPhoneDisplay}
           style={{

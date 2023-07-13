@@ -62,12 +62,12 @@ const Frame6 = () => {
       testimony:
         "I was skeptical about using an AI-powered chat tool, but Omnigpt has completely changed my mind. It's like having a virtual assistant that's always available to manage my conversations and keep me organized. I don't know how I managed without it!",
       authorImage: authorImage2,
-    }
+    },
   ];
 
   return (
     <div className={Style.Frame6}>
-      <h1 className={Style.mainHeader}>
+      <h1 className={Style.mainHeader} data-aos="fade-up">
         <span>
           See What People <br /> Are
         </span>{" "}
