@@ -1,5 +1,5 @@
 import Style from "./Footer.module.css";
-import OmniGPTlogo from "../../Images/omnigptLogo.png";
+import Image from "../../Constants/Image";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
       <div className={Style.mainFooter}>
         <div>
-          <img src={OmniGPTlogo} />
+          <img src={Image.OmnigptLogo} alt="logo" />
         </div>
         <div>
           <h3>Lorem Ipsum</h3>

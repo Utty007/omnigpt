@@ -1,11 +1,5 @@
+import Image from "../../../Constants/Image";
 import Style from "./Frame3.module.css";
-import iPhoneDisplay from "../../../Images/apple-iphone-14-pro-max-2022-full.png";
-import bgImage from "../../../Images/bgImg.png";
-import slackLogo from "../../../Images/Slack.png";
-import whatsappLogo from "../../../Images/Whatsapp.png";
-import Collaboration from "../../../Images/collaboration.png";
-import vector2 from "../../../Images/Rectangle2.png";
-import vector from "../../../Images/Rectangle6.png";
 
 const Frame3 = (props) => {
   return (
@@ -13,19 +7,15 @@ const Frame3 = (props) => {
       <div
         className={Style.phoneDisplay}
         style={{
-          backgroundImage: `url(${iPhoneDisplay})`,
+          backgroundImage: `url(${Image.iPhoneDisplay})`,
         }}
       >
-        <img src={bgImage} className={Style.bgImage} data-aos="flip-left" />
-        <img src={slackLogo} className={Style.slack} data-aos="fade-left" />
-        <img src={vector2} className={Style.vector2} data-aos="fade-right" />
-        <img src={vector} className={Style.vector} data-aos="fade-up" />
+        <img src={Image.bgImage} className={Style.bgImage} data-aos="flip-left" alt="..." />
+        <img src={Image.slackLogo} className={Style.slack} data-aos="fade-left" alt="..." />
+        <img src={Image.vector2} className={Style.vector2} data-aos="fade-right" alt="..." />
+        <img src={Image.vector} className={Style.vector} data-aos="fade-up" alt="..." />
 
-        <img
-          src={whatsappLogo}
-          className={Style.whatsapp}
-          data-aos="fade-down"
-        />
+        <img src={Image.whatsappLogo} className={Style.whatsapp} data-aos="fade-down" alt="..." />
       </div>
       <div
         className={Style.Text}
@@ -44,7 +34,7 @@ const Frame3 = (props) => {
             </p>
           </span>
           <span className={Style.wBgImg}>
-            <img src={Collaboration} />
+            <img src={Image.Collaboration} alt="..."/>
           </span>
         </div>
         <div className={Style.subText}>
