@@ -1,8 +1,9 @@
-import FaClose from "../Images/close.png";
-import Style from "./menuItem.module.css";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+
+import Image from "../Constants/Image";
+import Style from "./menuItem.module.css";
 
 const Menuitems = (props) => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const Menuitems = (props) => {
   }, []);
   return (
     <div data-aos="fade-left" className={Style.menuItem}>
-      <img src={FaClose} onClick={props.onClick} />
+      <img src={Image.FaClose} onClick={props.onClick} alt="..." />
       <p>Blog</p>
       <p>Contact us</p>
       <p>Sign In</p>

@@ -1,6 +1,6 @@
+import Image from "../../../Constants/Image";
 import ImgPos from "../../../UI/mul-img-pos";
 import Style from "./Frame1.module.css";
-import bgImg from "../../../Images/Graphic_Elements.png";
 
 const Frame1 = () => {
   return (
@@ -10,7 +10,7 @@ const Frame1 = () => {
           Seamless communication <br />{" "}
           <span
             style={{
-              backgroundImage: `url(${bgImg})`,
+              backgroundImage: `url(${Image.bgImg})`,
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}

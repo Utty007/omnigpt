@@ -1,5 +1,5 @@
+import Image from "../../../Constants/Image";
 import Style from "./Frame4.module.css";
-import Screenshot from "../../../Images/Screenshot.png";
 
 const Frame4 = () => {
   return (
@@ -15,9 +15,10 @@ const Frame4 = () => {
       <div>
         <img
           className={Style.frame4Img}
-          src={Screenshot}
+          src={Image.Screenshot}
           data-aos="flip-up"
           data-aos-duration="3000"
+          alt="..."
         />
       </div>
     </div>

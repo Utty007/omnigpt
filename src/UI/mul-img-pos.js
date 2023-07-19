@@ -1,16 +1,4 @@
-import Avatar1 from "../Images/Avatar1.png";
-import Avatar2 from "../Images/Avatar2.png";
-import Avatar3 from "../Images/Avatar3.png";
-import bgShape1 from "../Images/Rectangle3.png";
-import bgShape2 from "../Images/Rectangle4.png";
-import bgShape3 from "../Images/Rectangle5.png";
-import bgShape4 from "../Images/Rectangle.png";
-import ellipse1 from "../Images/Ellipse.png";
-import ellipse2 from "../Images/Ellipse2.png";
-import e1arrow from "../Images/Vector.png";
-import e2arrow from "../Images/Vector2.png";
-import marked from "../Images/Shape.png";
-import shape1 from "../Images/Rectangle2.png";
+import Image from "../Constants/Image";
 import Style from "./mulImg.module.css";
 
 const ImgPos = (props) => {
@@ -21,18 +9,18 @@ const ImgPos = (props) => {
           data-aos="fade-left"
           data-aos-duration="2000"
           style={{
-            backgroundImage: `url(${bgShape1})`,
+            backgroundImage: `url(${Image.bgShape1})`,
             backgroundRepeat: "no-repeat",
             backgroundPositionY: "bottom",
           }}
         >
-          <img data-aos="fade-up" data-aos-duration="2000" src={Avatar1} />
+          <img data-aos="fade-up" data-aos-duration="2000" src={Image.Avatar1} alt="..." />
         </div>
         <div
           data-aos="fade-right"
           data-aos-duration="2000"
           style={{
-            backgroundImage: `url(${ellipse1})`,
+            backgroundImage: `url(${Image.ellipse1})`,
             backgroundRepeat: "no-repeat",
             minWidth: "107px",
             minHeight: "107px",
@@ -41,8 +29,8 @@ const ImgPos = (props) => {
         >
           <img
             style={{ position: "relative", top: "27px", left: "30px" }}
-            src={e1arrow}
-          />
+            src={Image.e1arrow}
+            alt="..." />
         </div>
       </div>
       <div className={Style.subParent} style={{ alignItems: "end" }}>
@@ -50,7 +38,7 @@ const ImgPos = (props) => {
           data-aos="fade-right"
           data-aos-duration="2000"
           style={{
-            backgroundImage: `url(${ellipse2})`,
+            backgroundImage: `url(${Image.ellipse2})`,
             backgroundRepeat: "no-repeat",
             width: "107px",
             height: "107px",
@@ -59,14 +47,14 @@ const ImgPos = (props) => {
         >
           <img
             style={{ position: "relative", top: "27px", left: "30px" }}
-            src={e2arrow}
-          />
+            src={Image.e2arrow}
+            alt="..." />
         </div>
         <div
           data-aos="fade-left"
           data-aos-duration="2000"
           style={{
-            backgroundImage: `url(${bgShape3})`,
+            backgroundImage: `url(${Image.bgShape3})`,
             backgroundRepeat: "no-repeat",
             backgroundPositionY: "bottom",
             width: "333px",
@@ -76,8 +64,8 @@ const ImgPos = (props) => {
             data-aos="fade-up"
             data-aos-duration="2000"
             style={{ position: "relative", left: "52px", top: "4px" }}
-            src={Avatar3}
-          />
+            src={Image.Avatar3}
+            alt="..." />
         </div>
       </div>
       <div
@@ -85,7 +73,7 @@ const ImgPos = (props) => {
         data-aos="fade-left"
         data-aos-duration="2000"
         style={{
-          backgroundImage: `url(${bgShape4})`,
+          backgroundImage: `url(${Image.bgShape4})`,
           backgroundRepeat: "no-repeat",
           maxWidth: "467px",
           height: "107px",
@@ -101,11 +89,11 @@ const ImgPos = (props) => {
             float: "right",
           }}
         >
-          @OmniGPT Can you give us <br /> an update on the latest project
+          @OmniGPT Can you give us <br alt="..." /> an update on the latest project
           status?
           <span style={{ position: "relative", left: "107px" }}>11: 41</span>
           <span style={{ position: "relative", left: "110px" }}>
-            <img src={marked} />
+            <img src={Image.marked} alt="..." />
           </span>
         </p>
       </div>
@@ -114,14 +102,14 @@ const ImgPos = (props) => {
           data-aos="fade-right"
           data-aos-duration="2000"
           style={{
-            backgroundImage: `url(${bgShape2})`,
+            backgroundImage: `url(${Image.bgShape2})`,
             backgroundRepeat: "no-repeat",
             backgroundPositionY: "bottom",
             position: "relative",
             top: "-150px",
           }}
         >
-          <img data-aos="fade-up" data-aos-duration="2000" src={Avatar2} />
+          <img data-aos="fade-up" data-aos-duration="2000" src={Image.Avatar2} alt="..." />
         </div>
         <div
           data-aos="fade-left"
@@ -133,7 +121,7 @@ const ImgPos = (props) => {
             maxHeight: "110px",
           }}
         >
-          <img src={shape1} />
+          <img src={Image.shape1} alt="..." />
         </div>
       </div>
     </div>

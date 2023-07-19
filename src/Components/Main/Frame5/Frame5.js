@@ -1,15 +1,8 @@
-import Style from "./Frame5.module.css";
-import whatsappLogo from "../../../Images/whatsapp-Logo.png";
-import slackLogo from "../../../Images/logos_slack-icon.png";
-import chromeLogo from "../../../Images/chrome-Logo.png";
-import trelloLogo from "../../../Images/trello-Logo.png";
-import jiraLogo from "../../../Images/jira-Logo.png";
-import notionLogo from "../../../Images/notion-Logo.png";
-import googleLogo from "../../../Images/google-Logo.png";
-import githubLogo from "../../../Images/github-Logo.png";
-import lineLogo from "../../../Images/lineLogo.png";
 import { useEffect } from "react";
 import { useState } from "react";
+
+import Image from "../../../Constants/Image";
+import Style from "./Frame5.module.css";
 
 const Frame5 = () => {
   const [integration, setIntegrations] = useState([]);
@@ -30,31 +23,31 @@ const Frame5 = () => {
 
   const integrationImage = [
     {
-      image: whatsappLogo,
+      image: Image.whatsappLogo,
     },
     {
-      image: slackLogo,
+      image: Image.slackLogo,
     },
     {
-      image: chromeLogo,
+      image: Image.chromeLogo,
     },
     {
-      image: lineLogo,
+      image: Image.lineLogo,
     },
     {
-      image: trelloLogo,
+      image: Image.trelloLogo,
     },
     {
-      image: jiraLogo,
+      image: Image.jiraLogo,
     },
     {
-      image: googleLogo,
+      image: Image.googleLogo,
     },
     {
-      image: notionLogo,
+      image: Image.notionLogo,
     },
     {
-      image: githubLogo,
+      image: Image.githubLogo,
     },
   ];
 
@@ -83,7 +76,7 @@ const Frame5 = () => {
               data-aos-duration="1000"
             >
               <div className={Style.integrationHeader}>
-                <img src={integrations.integrationImage} />
+                <img src={integrations.integrationImage} alt="..." />
                 <h3>{integrations.integrationName}</h3>
               </div>
               <div>
