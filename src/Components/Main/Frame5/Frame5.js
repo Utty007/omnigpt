@@ -8,6 +8,7 @@ import notionLogo from "../../../Images/notion-Logo.png";
 import googleLogo from "../../../Images/google-Logo.png";
 import githubLogo from "../../../Images/github-Logo.png";
 import lineLogo from "../../../Images/lineLogo.png";
+import "../../../OmniGPTIntegrations.json";
 import { useEffect } from "react";
 import { useState } from "react";
 
@@ -23,6 +24,12 @@ const Frame5 = () => {
         })
         .then((data) => {
           setIntegrations(data);
+        })
+        .catch((error) => {
+          // Handle any error that occurred during the fetch process
+          console.error("Error fetching data:", error);
+          // Optionally, you can set a default value for 'integrations' or handle the error in another way
+          setIntegrations([]);
         });
     };
     integrationData();
